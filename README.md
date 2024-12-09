@@ -54,5 +54,9 @@ Das Skript `mariadbstart.bat` automatisiert die Installation, das Starten und di
 - Es prüft den Serverstatus dynamisch und wartet nur, bis der Server tatsächlich bereit ist.
 
 ## Lizenz
+Dieses Skript verwendet MariaDB, das unter den Bedingungen der GNU General Public License (GPL) Version 2 lizenziert ist. Eine Kopie der Lizenz gibt es hier: https://mariadb.com/kb/en/licensing-faq/
+
+GNU General Public License (GPL) Version 2, MariaDB wird ohne jegliche Garantie bereitgestellt. 
+
 Dieses Skript wird ohne Gewähr bereitgestellt. Nutzung auf eigene Gefahr.
 
