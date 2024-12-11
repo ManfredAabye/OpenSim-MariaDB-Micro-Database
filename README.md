@@ -1,4 +1,4 @@
-# MariaDB Setup Automatisieren
+# MariaDB Micro Portabel
 
 Das Skript `mariadbstart.bat` automatisiert die Installation, das Starten und die Einrichtung von MariaDB. Es überprüft, ob das Verzeichnis `data` oder die vordefinierten Datenbanken fehlen, installiert bei Bedarf MariaDB und startet anschließend den Server.
 
