@@ -1,7 +1,7 @@
 # mariadbstart
 
 
-## MariaDB Setup und start Automatisieren
+## MariaDB 11.6.2 Setup und start Automatisieren
 
 Das Skript `mariastart.bat` automatisiert die Installation, das Starten und die Einrichtung von MariaDB. Es überprüft, ob das Verzeichnis `data` oder die vordefinierten Datenbanken fehlen, installiert bei Bedarf MariaDB und startet anschließend den Server.
 
