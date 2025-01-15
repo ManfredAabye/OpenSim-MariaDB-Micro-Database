@@ -76,14 +76,16 @@ if not exist "../data" (
     exit /b 1
 )
 
+:: Benutzerdaten und Passwort festlegen
+set DB_USER=opensim
+set DB_PASS=opensim
+
 if "%1"=="no-create-db" (
     echo Datenbankerstellung übersprungen.
 ) else (
     echo Erstelle Datenbanken...
-    set DB_USER=opensim
-    set DB_PASS=opensim
-
-    for %%D in (mysql opensim web robust money sim1 sim2 sim3 sim4 sim5 sim6 sim7 sim8 sim9 sim10) do (
+    for %%D in (mysql opensim web robust money sim1 sim2 sim3 sim4 sim5 sim6 sim7 sim8 sim9 sim10 diva simonastick) do (
+        echo Erstelle Datenbank %%D...
         mysql -u %DB_USER% -p%DB_PASS% -e "CREATE DATABASE %%D;"
         if %errorlevel% neq 0 (
             echo Fehler beim Erstellen der Datenbank %%D.

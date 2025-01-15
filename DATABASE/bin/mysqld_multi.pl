@@ -30,12 +30,12 @@ my @defaults_options;   #  Leading --no-defaults, --defaults-file, etc.
 $opt_example       = 0;
 $opt_help          = 0;
 $opt_log           = undef();
-$opt_mysqladmin    = "C:/Program Files/MariaDB/bin/mariadb-admin";
+$opt_mysqladmin    = "./bin/mariadb-admin";
 $opt_mysqld        = "./bin/mariadbd";
 $opt_no_log        = 0;
-$opt_password      = undef();
+$opt_password      = "***";
 $opt_tcp_ip        = 0;
-$opt_user          = "root";
+$opt_user          = "opensim";
 $opt_version       = 0;
 $opt_silent        = 0;
 $opt_verbose       = 0;
