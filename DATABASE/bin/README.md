@@ -9,6 +9,7 @@ Das Skript `mariastart.bat` automatisiert die Installation, das Starten und die 
 - **Installationsprüfung:** Erkennt automatisch, ob MariaDB installiert ist, indem das Verzeichnis `data` überprüft wird.
 - **Serverstart:** Startet den MariaDB-Server automatisch, wenn er noch nicht läuft. Überprüft vor dem Start, ob der Server bereits aktiv ist.
 - **Datenbankerstellung:** Erstellt vordefinierte Datenbanken, falls diese noch nicht existieren.
+- Der **Benutzername** und das **Passwort** ist genauso gesetzt wie in der Konfiguration von OpenSim und Robust voreingetragen sind. Es sollte also sofort funktionieren, wenn von SQLite auf MySQL umgestellt wurde.
 
 ## Verwendung
 ### Voraussetzungen
