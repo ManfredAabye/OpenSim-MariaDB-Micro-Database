@@ -15,7 +15,7 @@ Diese Micro-Portabel-Version von MariaDB ist speziell für die Verwendung mit Op
 - **Portabilität**: Perfekt für Entwickler, die OpenSimulator und MariaDB auf verschiedenen Geräten mit sich führen und verwenden möchten.
 
 **Anpassbarkeit**
-Wer einfach nur einen Standalone OpenSimulator mit oder ohne Diva erstellen möchte, 
+- Wer einfach nur einen Standalone OpenSimulator mit oder ohne Diva erstellen möchte, 
 kann entweder diese auf ein Maximum erstellten Datenbanken nutzen oder sie kürzen beziehungsweise namentlich seinem Projekt anpassen.
 
 ## Funktionen
