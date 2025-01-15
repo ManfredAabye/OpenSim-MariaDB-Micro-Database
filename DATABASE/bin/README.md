@@ -41,6 +41,8 @@ Das Skript `mariastart.bat` automatisiert die Installation, das Starten und die 
      - `robust`
      - `money`
      - `sim1` bis `sim10`
+     - `diva`
+     - `simonastick`
 
 ### Fehlerbehandlung
 - Falls die Installation oder der Serverstart fehlschlägt, beendet das Skript die Ausführung mit einem Fehlercode.
