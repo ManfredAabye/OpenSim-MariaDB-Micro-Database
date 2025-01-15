@@ -14,6 +14,10 @@ Diese Micro-Portabel-Version von MariaDB ist speziell für die Verwendung mit Op
 - **Flexibilität**: Ermöglicht es Benutzern, OpenSimulator auf verschiedenen Systemen ohne großen Aufwand auszuführen.
 - **Portabilität**: Perfekt für Entwickler, die OpenSimulator und MariaDB auf verschiedenen Geräten mit sich führen und verwenden möchten.
 
+**Anpassbarkeit**
+Wer einfach nur einen Standalone OpenSimulator mit oder ohne Diva erstellen möchte, 
+kann entweder diese auf ein Maximum erstellten Datenbanken nutzen oder sie kürzen beziehungsweise namentlich seinem Projekt anpassen.
+
 ## Funktionen
 - **Installationsprüfung:** Erkennt automatisch, ob MariaDB installiert ist, indem das Verzeichnis `data` überprüft wird.
 - **Serverstart:** Startet den MariaDB-Server automatisch, wenn er noch nicht läuft. Überprüft vor dem Start, ob der Server bereits aktiv ist.
