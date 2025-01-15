@@ -2,6 +2,18 @@
 
 Das Skript `mariadbstart.bat` automatisiert die Installation, das Starten und die Einrichtung von MariaDB. Es überprüft, ob das Verzeichnis `data` oder die vordefinierten Datenbanken fehlen, installiert bei Bedarf MariaDB und startet anschließend den Server.
 
+**Zweck**
+Diese Micro-Portabel-Version von MariaDB ist speziell für die Verwendung mit OpenSimulator gedacht. Sie ermöglicht es, eine portable Version von OpenSimulator zu erstellen, die einfach auf verschiedenen Systemen verwendet werden kann, ohne eine vollständige Installation von MariaDB erforderlich zu machen.
+
+**Anwendungen**
+- **Sim-on-a-Stick**: Ideal für tragbare Simulationsumgebungen, die auf einem USB-Stick oder anderen tragbaren Speichermedien ausgeführt werden können.
+- **Portable Diva-Version**: Unterstützt die Erstellung von portablen Versionen der Diva Distro für OpenSimulator.
+
+**Vorteile**
+- **Einfache Bereitstellung**: Keine Notwendigkeit für eine vollständige Installation von MariaDB. Kann direkt von tragbaren Medien gestartet werden.
+- **Flexibilität**: Ermöglicht es Benutzern, OpenSimulator auf verschiedenen Systemen ohne großen Aufwand auszuführen.
+- **Portabilität**: Perfekt für Entwickler, die OpenSimulator und MariaDB auf verschiedenen Geräten mit sich führen und verwenden möchten.
+- 
 ## Funktionen
 - **Installationsprüfung:** Erkennt automatisch, ob MariaDB installiert ist, indem das Verzeichnis `data` überprüft wird.
 - **Serverstart:** Startet den MariaDB-Server automatisch, wenn er noch nicht läuft. Überprüft vor dem Start, ob der Server bereits aktiv ist.
